@@ -1,1 +1,106 @@
-home page
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MA3_WEN_ZHAO</title>
+  <style>
+    .container {
+      display: grid;
+      height: 100%;
+      width: 100%;
+      grid-template-rows: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+      grid-template-areas: 
+        "header header header"
+        "left-sidebar content right-sidebar"
+        "footer footer footer"
+      ;
+    }
+
+    .center {
+        position: fixed;
+        top: 0;
+        left: 0; 
+
+    }
+
+    .main-header {
+      grid-area: header;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-content {
+      grid-area: content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-left-sidebar {
+      grid-area: left-sidebar;
+      font-size: larger;
+    }
+
+    .main-right-sidebar {
+      grid-area: right-sidebar;
+      font-size: larger;
+    }
+
+    .main-footer {
+      grid-area: footer;
+    }
+
+    .container > div {
+      border: 1px solid black;
+      margin: 3px;
+      background-color: lightpink;
+    }
+    
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color:powderblue;
+        transition: 500ms;
+
+    }
+
+    .box:hover{
+        width: 120px;
+        height: 120px;
+        background-color:plum;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container center">
+    <div class="main-header">
+      <h1>Wen Zhao's Website</h1>
+    </div>
+    <div class="main-content">
+        <div class="box"></div>
+    </div>
+    <div class="main-left-sidebar">
+        <ul>
+            <li>Home Page</li>
+            <li>Projects</li>
+        </ul>
+    </div>
+    <div class="main-right-sidebar">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/wenzhao2021">LinkedIn </a></li>
+            <li><a href="https://mail.google.com/">Email: zhao.we@noetheastern.edu</a></li>
+        </ul>
+    </div>
+    <div class="main-footer"></div>
+
+  </div>
+
+</body>
+
+</html>
