@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>MA3_WEN_ZHAO</title>
+  <title>P1_WEN_ZHAO</title>
   <style>
     .container {
       display: grid;
@@ -29,6 +29,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: row;
+
+    }
+    .main-header :hover {
+        background-color: aqua;
     }
 
     .main-content {
@@ -53,16 +58,16 @@
     }
 
     .container > div {
-      border: 1px solid black;
-      margin: 3px;
-      background-color: lightpink;
+      border: 1px;
+      margin: 1px;
+      background-color: lightblue;
     }
     
     .box {
         width: 60px;
         height: 60px;
         background-color:powderblue;
-        transition: 500ms;
+        transition: 500ms ease-in;
 
     }
 
@@ -80,16 +85,19 @@
 
   <div class="container center">
     <div class="main-header">
-      <h1>Wen Zhao's Website</h1>
+      <h3>Wen Zhao's Website</h3>
+      <ul>
+        <li><a href="https://wenzhaoneu.github.io/homePage/">Personal</a>Home Page</li>
+        <li><a href="https://wenzhaoneu.github.io/project/">Project</a></li>
+        <li><a href="https://wenzhaoneu.github.io/contact/">Contact</a></li>
+        <li><a href="https://wenzhaoneu.github.io/personal/">Personal</a></li>
+    </ul>
+
     </div>
     <div class="main-content">
         <div class="box"></div>
     </div>
     <div class="main-left-sidebar">
-        <ul>
-            <li>Home Page</li>
-            <li>Projects</li>
-        </ul>
     </div>
     <div class="main-right-sidebar">
         <ul>
