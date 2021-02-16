@@ -17,14 +17,14 @@
       height: 100%;
       width: auto;
       padding: 0;
-      grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr;
-      grid-template-columns: 1fr 1fr 4fr 4fr 1fr;
+      grid-template-rows: 1.5fr 2fr 2fr 2fr 1fr;
+      grid-template-columns: 1fr 1fr 2fr 1fr 2fr 1fr;
       grid-template-areas: 
-        "header header header header header"
-        "left-sidebar image1 content1 content1 right-sidebar"
-        "left-sidebar image2 content2 content2 right-sidebar"
-        "left-sidebar image3 content3 content3 right-sidebar"
-        "left-sidebar image5 footer-l footer-r right-sidebar"
+        "header header header header header header"
+        "left-sidebar image5 content5 content5 content5 right-sidebar"
+        "left-sidebar image1 content1 image2 content2 right-sidebar"
+        "left-sidebar image3 content3 image4 content4 right-sidebar"
+        "footer footer footer-l footer-r footer-r right-sidebar"
       ;
     }
 
@@ -87,6 +87,17 @@
         height: 60px;
     }
 
+    .img-profile {
+        border-radius: 50%;
+        size: 50px;
+        border: 1px solid #ddd;
+        margin: 20px;
+    }
+
+    .img-profile:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+
     .main-content_1 {
       grid-area: content1;
       display: flex;
@@ -114,13 +125,31 @@
       font-size:large;
     }
 
+    .main-content_4 {
+      grid-area: content4;
+      display: flex;
+      justify-content:left;
+      align-items:center;
+      flex-direction: row;
+      font-size:large;
+    }
 
+    .main-content_5 {
+      grid-area: content5;
+      display: flex;
+      justify-content:left;
+      align-items:center;
+      flex-direction: row;
+      font-size:large;
+    }
 
     .border_up {
         border-top: 1px solid lightgrey;
     }
 
-
+    .border_up_footer {
+        border-top: 2px solid powderblue;
+    }
 
     .center {
         position: absolute;
@@ -169,12 +198,16 @@
         width: 50;
     }
 
+    .size_small {
+        font-size: small;
+    }
+
+
     /* .container > div {
       border: 1px solid lightgrey;
       margin: 1px;
       background-color: rgb(224, 213, 213);
     } */
-
 </style>
 </head>
 <body>
@@ -185,12 +218,12 @@
       <a class="navbar-brand" href="#">WenZhao</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="https://wenzhaoneu.github.io/homePage/">Home</a></li>
-      <li><a href="https://wenzhaoneu.github.io/education/">Education</a></li>
-      <li><a href="https://wenzhaoneu.github.io/project/">Project</a></li>
-      <li><a href="https://wenzhaoneu.github.io/work/">Work</a></li>
-      <li><a href="https://wenzhaoneu.github.io/personal/">Personal</a></li>
-      <li><a href="https://wenzhaoneu.github.io/contact/">Contact</a></li>
+        <li class="active"><a href="https://wenzhaoneu.github.io/homePage/">Home</a></li>
+        <li><a href="https://wenzhaoneu.github.io/education/">Education</a></li>
+        <li><a href="https://wenzhaoneu.github.io/project/">Project</a></li>
+        <li><a href="https://wenzhaoneu.github.io/work/">Work</a></li>
+        <li><a href="https://wenzhaoneu.github.io/personal/">Personal</a></li>
+        <li><a href="https://wenzhaoneu.github.io/contact/">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -198,49 +231,78 @@
 
 <div class="container" style="margin-top:50px">
     <div class="main-header">
-        <h2>Work Experience</h2>
+        <h2>Welcome to Wen Zhao Website</h2>
     </div>
-    <div class="main-content_1">
+    <div class="main-content_1 border_up">
         <div>
-            <h3>Blue Focus Consulting Enterprise</h3>
-            <p>Blue Focus Consulting Enterprise | Jan 2014 - Jan 2017</p> 
-            <p>Designed marketing projects for brand image to support business based on consumer behavior</p>
-            <p>Analyzed data and generated reports of branding index of Jeep on social media with Python</p>
+            <h3>Education</h3>
+            <p>Current student in NEU majored in Master of Science in Computer Science</p> 
+            <a href="https://wenzhaoneu.github.io/education/" class="size_small">More details</a>
         </div>
     </div>
     <div class="main-content_2 border_up">
         <div>
-            <h3>Technicolor Group</h3>
-            <p>Programmer Analyst | Jun. 2013 - Aug. 2013</p> 
-            <p>Developed online tool to collect feedbacks from the staff leadership training using JavaScript</p>
+            <h3>Academic Projects</h3>
+            <p>Farmiliar with developing software and project implementing</p>
+            <a href="https://wenzhaoneu.github.io/project/" class="size_small">More details</a>
+ 
         </div>
     </div>
     <div class="main-content_3 border_up">
         <div>
-            <h3>PreSchool Education Volunteer</h3>
-            <p>May 2018 - April 2019</p> 
-            <p>Designed courses and activities for children to improve language skills and social recognition</p> 
+            <h3>Work Experience</h3>
+            <p>Had backgroud with Marketing Analyst</p> 
+            <a href="https://wenzhaoneu.github.io/work/" class="size_small">More details</a>  
         </div>
     </div>
-    <div class="main-left-sidebar ">
+    <div class="main-content_4 border_up">
+          <div> 
+            <h3>Contact</h3>
+            <p>LinkedIn, Github, Northeastern edu email</p>
+            <a href="https://wenzhaoneu.github.io/contact/" class="size_small">More details</a>
+        </div>
+    </div>
+
+    <div class="main-content_5 border_up">
+        <div> 
+          <h3>Profile</h3>
+          <span>I'm an <b>MS Computer Science student</b> who has a strong passion and rich project experience in software development.</span>
+          <span> I'm good at Java, python, C, JavaScript, etc.</span>
+          <span> What's more, I also have years of volunteer experience, since I believe it is our responsibility to make the world better.</span>
+      </div>
+  </div>
+
+
+    <div class="main-left-sidebar">
     </div>
     <div class="main-right-sidebar">
     </div>
     <div class="main-footer-left border_up">
+
     </div>
     <div class="main-footer-right border_up">
+
     </div>
     <div class="image1">
-        <img class="img-size" src="https://sowebsite.oss-cn-shanghai.aliyuncs.com/files/2020/05/107b8c78d3ffe52b076e6af40fd19e9-300x300.jpg">
+        <img class="img-size" src="https://cdn2.iconfinder.com/data/icons/education-part-5/33/read-512.png">
     </div>
 
     <div class="image2">
-        <img class="img-size" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZDzZH1rvB40qWp9KbmOKn1nm0Ww-dIzeKgA&usqp=CAU">
+        <img class="img-size" src="https://i.dlpng.com/static/png/1195764-database-free-png-image-database-png-1731_2400_preview.png">
     </div>
 
     <div class="image3">
-        <img class="img-size" src="https://www.wenba.ca/uploads/questions/20180703/75011007da78ddcc7ad2f92579ac3cb1.jpg">
+        <img class="img-size" src="https://www.mikaelahunt.com/wp-content/uploads/2016/04/Work.jpg">
     </div>
+
+    <div class="image4">
+        <img class="img-size" src="http://blogs.vmware.com/management/files/2019/04/25231.png">
+    </div>
+
+    <div class="image5">
+        <img class="img-profile" src="https://media-exp1.licdn.com/dms/image/C5603AQFHrY2hvBjuiQ/profile-displayphoto-shrink_200_200/0/1517060399095?e=1619049600&v=beta&t=MVk3SKaTvUDSW7Cy7duodrnrF2mEbLrCRZl47b75mhQ">
+    </div>
+
 
 
  
