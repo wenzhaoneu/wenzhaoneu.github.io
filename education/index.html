@@ -1,1 +1,280 @@
-edu
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>P1_WEN_ZHAO</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+
+    body,html {
+        height:100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .container {
+      display: grid;
+      height: 100%;
+      width: auto;
+      padding: 0;
+      grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr;
+      grid-template-columns: 1fr 1fr 4fr 4fr 1fr;
+      grid-template-areas: 
+        "header header header header header"
+        "left-sidebar image1 content1 content1 right-sidebar"
+        "left-sidebar image2 content2 content2 right-sidebar"
+        "left-sidebar image3 content3 content3 right-sidebar"
+        "left-sidebar image5 footer-l footer-r right-sidebar"
+      ;
+    }
+
+    /* "left-sidebar footer footer right-sidebar" */
+
+    .main-header {
+      grid-area: header;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background-color: powderblue;
+
+    }
+    .main-header:hover {
+        cursor:zoom-in;
+        
+    }
+
+    .image1 {
+        grid-area: image1;
+  
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .image2 {
+        grid-area: image2;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .image3 {
+        grid-area: image3;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .image4 {
+        grid-area: image4;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .image5 {
+        grid-area: image5;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-size {
+        width:60px;
+        height: 60px;
+    }
+
+    .main-content_1 {
+      grid-area: content1;
+      display: flex;
+      justify-content:left;
+      align-items: center;
+      flex-direction: row;
+      font-size:large;
+    }
+
+    .main-content_2 {
+      grid-area: content2;
+      display: flex;
+      justify-content:left;
+      align-items: center;
+      flex-direction: row;
+      font-size:large;
+    }
+
+    .main-content_3 {
+      grid-area: content3;
+      display: flex;
+      justify-content:left;
+      align-items:center;
+      flex-direction: row;
+      font-size:large;
+    }
+
+    .main-content_4 {
+      grid-area: content4;
+      display: flex;
+      justify-content:left;
+      align-items:center;
+      flex-direction: row;
+      font-size:large;
+    }
+
+    .border_up {
+        border-top: 1px solid lightgrey;
+    }
+
+    .border_up_footer {
+        border-top: 2px solid powderblue;
+    }
+
+    .center {
+        position: absolute;
+        top: 0;
+        left: 0; 
+        bottom:0;
+        right:0;
+        margin:auto;
+    }
+
+  
+    .main-left-sidebar {
+      grid-area: left-sidebar;
+      font-size: larger;
+    }
+
+    .main-right-sidebar {
+      grid-area: right-sidebar;
+      font-size: larger;
+    }
+
+
+    .main-footer-left {
+        grid-area: footer-l;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        flex-direction: row;
+        justify-content:left;
+    }
+
+    .main-footer-right {
+        grid-area: footer-r;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        flex-direction: row;
+        justify-content:left;
+
+    }
+
+    .size {
+        height: 50px;
+        width: 50;
+    }
+
+    .size_small {
+        font-size: small;
+    }
+
+    /* .container > div {
+      border: 1px solid lightgrey;
+      margin: 1px;
+      background-color: rgb(224, 213, 213);
+    } */
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WenZhao</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="https://wenzhaoneu.github.io/homePage/">Home</a></li>
+      <li class="active"><a href="https://wenzhaoneu.github.io/education/">Education</a></li>
+      <li><a href="https://wenzhaoneu.github.io/project/">Project</a></li>
+      <li><a href="https://wenzhaoneu.github.io/work/">Work</a></li>
+      <li><a href="https://wenzhaoneu.github.io/personal/">Personal</a></li>
+      <li><a href="https://wenzhaoneu.github.io/contact/">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container" style="margin-top:50px">
+    <div class="main-header">
+        <h2>Education</h2>
+    </div>
+    <div class="main-content_1">
+        <div>
+            <h3>Northeastern University, Seattle, WA</h3>
+            <p>Master of Science in Computer Science | Graduation: May 2022</p> 
+            <span>Related Courses: Object-Oriented Design, Computer Systems, Intensive Foundations of Com- puter Science, </span> 
+            <span>and Data Structures, Database Management Systems, Algorithms</span>
+            
+        </div>
+    </div>
+    <div class="main-content_2 border_up">
+        <div>
+            <h3>China University of Petroleum</h3>
+            <p>Master of Translation and Interpretation | Sep 2012 - Aug 2014</p> 
+            <span>Related Courses: Computer-Aided Translation </span>
+        </div>
+    </div>
+    <div class="main-content_3 border_up">
+        <div>
+            <h3>China University of Petroleum</h3>
+            <p>Bachelor of Art | Sep 2008 - Jul 2012</p> 
+            <p>Related Course: Computers Fundamentals, Web Design & Website Construction</p> 
+        </div>
+    </div>
+    <div class="main-left-sidebar ">
+    </div>
+    <div class="main-right-sidebar">
+    </div>
+    <div class="main-footer-left border_up_footer">
+        <ul>
+            <p><b>Languages:</b> Java, JavaScript, C, Python</p>
+            <p><b>Tools:</b> Visual Studio, Eclipse, NetBeans, Xcode</p>
+        </ul>
+
+    </div>
+    <div class="main-footer-right border_up_footer">
+        <ul>
+            <p><b>Databases:</b> MySQL, MS SQL Server</p>
+            <p><b>Systems:</b> Linux, Mac OSX, Windows</p>
+        </ul>
+
+    </div>
+    <div class="image1">
+        <img class="img-size" src="https://i0.wp.com/web.northeastern.edu/numa/wp-content/uploads/NEU-logo.png?fit=300%2C300&ssl=1">
+    </div>
+
+    <div class="image2">
+        <img class="img-size" src="https://image.cingta.com/static/image/20181105/3a84a45e69494047bbe68a2bcd2ceba5.jpg">
+    </div>
+
+    <div class="image3">
+        <img class="img-size" src="https://image.cingta.com/static/image/20181105/3a84a45e69494047bbe68a2bcd2ceba5.jpg">
+    </div>
+
+    <div class="image5">
+        <img class="img-size" src="https://previews.123rf.com/images/orla/orla1307/orla130700410/21138728-3d-menschen-ein-mann-person-und-w%C3%BCrfel-mit-wort-skill.jpg">
+    </div>
+
+
+ 
+    
+</div>
+
+</body>
+</html>
+
