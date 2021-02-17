@@ -10,13 +10,13 @@ height:fit-content;
 width: auto;
 padding: 0;
 grid-template-rows: 1.5fr 2fr 2fr 2fr 1fr;
-grid-template-columns: 1fr 1fr 2fr 1fr 2fr 1fr;
+grid-template-columns: 1fr 4fr 1fr 4fr;
 grid-template-areas: 
-"header header header header header header"
-"left-sidebar image5 content5 content5 content5 right-sidebar"
-"left-sidebar image1 content1 image2 content2 right-sidebar"
-"left-sidebar image3 content3 image4 content4 right-sidebar"
-"footer footer footer-l footer-r footer-r right-sidebar"
+"header header header header"
+"image5 content5 content5 content5"
+"image1 content1 image2 content2"
+"image3 content3 image4 content4"
+"footer-l footer-l footer-l footer-l "
 ;
 }
 
@@ -29,6 +29,7 @@ justify-content: center;
 align-items: center;
 flex-direction: row;
 background-color: powderblue;
+width: 100%;
 
 }
 .main-header:hover {
@@ -38,7 +39,6 @@ cursor:zoom-in;
 
 .image1 {
 grid-area: image1;
-
 display: flex;
 justify-content:center;
 align-items: center;
