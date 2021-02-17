@@ -259,10 +259,8 @@ ul.topnav li {float: none;}
 @media screen and (max-width:600px){
   .topnav a {
     float: none;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    bottom:0;
+    display: block;
+ 
   }
 
 }
