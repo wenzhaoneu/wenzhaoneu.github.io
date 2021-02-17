@@ -6,6 +6,7 @@ body,html {
 @media only screen and (max-width: 600px) {
     .nav-div{
         font-size: larger;
+        color:aqua;
         
         }
 /* .nav-div{
