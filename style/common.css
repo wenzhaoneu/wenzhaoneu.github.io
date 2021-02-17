@@ -175,9 +175,13 @@ body,html {
     font-size: small;
 }
 
-/* .container > div {
+.top-margin {
+    margin-top: 50px;
+}
+
+.container > div {
     border: 1px solid lightgrey;
     margin: 1px;
     background-color: rgb(224, 213, 213);
-} */
+}
 
