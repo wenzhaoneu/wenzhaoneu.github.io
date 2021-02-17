@@ -315,7 +315,10 @@ ul.topnav li {float: none;}
     "image4 content4"
     "footer-l footer-l "
     ;
-    }
+    width: 100%;
     margin-left: 0;
+    transform: translate(-50%);
+    }
+    
 
 }
