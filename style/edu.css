@@ -29,3 +29,23 @@
       "left-sidebar image5 footer-l footer-r right-sidebar"
     ;
   } */
+
+  @media only screen and (max-width: 700px) {
+      #container-edu{
+          display:grid;
+          padding:0;
+          grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr;
+          grid-template-columns: 1fr 1;
+          grid-template-areas: 
+            "header header"
+            "image1 content1"
+            "image2 content2"
+            "image3 content3"
+            "image5 footer-l"
+          ;
+
+
+
+      }
+
+  }
