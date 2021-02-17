@@ -6,6 +6,13 @@ body,html {
 @media only screen and (max-width: 600px) {
     container-fluid{
         font-size: 35px;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+
+    }
+    container{
+        margin-bottom: 30px;
     }
 
 }
