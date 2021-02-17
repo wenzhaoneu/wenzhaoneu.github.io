@@ -1,0 +1,40 @@
+body,html {
+        height:100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 70%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/82569627_595340811262047_2601369362275237888_n.jpg?_nc_cat=106&ccb=3&_nc_sid=8bfeb9&_nc_ohc=tcatANmDGo4AX99sO6n&_nc_ht=scontent-sea1-1.xx&oh=96ab73801f235642b96e193003aec4b7&oe=6052EEB4"); }
+.img2 { background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/84801421_610636133065848_4656661193669214208_o.jpg?_nc_cat=109&ccb=3&_nc_sid=8bfeb9&_nc_ohc=eNqCK0yAji4AX_Y7DKW&_nc_ht=scontent-sea1-1.xx&oh=0c4198e97a125b06be58f02ca4661264&oe=60513F80"); }
+.img3 { background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/151280469_872645296864929_6693127646683752059_n.jpg?_nc_cat=106&ccb=3&_nc_sid=8bfeb9&_nc_ohc=o2O_jozuTvcAX83oY97&_nc_ht=scontent-sea1-1.xx&oh=ee372ad1bb1f348ca805bbd0a887879f&oe=6050AF70"); }
+.img4 { background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/150666312_872642620198530_6295934788470640416_n.jpg?_nc_cat=104&ccb=3&_nc_sid=8bfeb9&_nc_ohc=ieUqWC4NoC0AX-Yj0_6&_nc_ht=scontent-sea1-1.xx&oh=e9c4f4c85c48e2ff7359b7306868d21d&oe=6050E93B"); }
+.img5 { background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/151179460_872639590198833_2875529627376716764_n.jpg?_nc_cat=110&ccb=3&_nc_sid=8bfeb9&_nc_ohc=tnVxmmsbbQkAX_Xp9Ey&_nc_ht=scontent-sea1-1.xx&oh=d3591da1bc7597cd72ee13d21264ed94&oe=6052C696"); }
+.img6 { background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/151207773_872648823531243_3175993094268757113_n.jpg?_nc_cat=105&ccb=3&_nc_sid=8bfeb9&_nc_ohc=AMobI4BXnycAX-HtLbB&_nc_ht=scontent-sea1-1.xx&oh=2cd4a5dfae01c807fe8843c8237da344&oe=6052A2E0"); }
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: auto;
+  padding: 20px;
+  text-align: center;
+}
