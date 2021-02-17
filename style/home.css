@@ -299,4 +299,22 @@ ul.topnav li {float: none;}
     font-size:small;
   }
 
+  .content {
+    display: grid;
+    height:fit-content;
+    width: auto;
+    padding: 0;
+    grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1;
+    grid-template-areas: 
+    "header header"
+    "image5 content5"
+    "image1 content1" 
+    "image2 content2"
+    "image3 content3" 
+    "image4 content4"
+    "footer-l footer-l "
+    ;
+    }
+
 }
