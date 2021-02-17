@@ -3,30 +3,6 @@ body,html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* @media only screen and (max-width: 600px) {
-    .nav-div{
-        font-size: larger;
-        color:aqua;
-        
-        } */
-/* .nav-div{
-    position: fixed;
-    bottom: 0;
-    margin-top: 30px;
-    left:0;
-}
-.navbar {
-    margin-bottom: 0;
-  } */
-
-/* } */
-
-
-.nav-div{
-font-size: larger;
-
-}
-
 .content {
 display: grid;
 height: 100%;
@@ -217,8 +193,44 @@ width: 50;
 font-size: small;
 }
 
-/* .container > div {
-border: 1px solid lightgrey;
-margin: 1px;
-background-color: rgb(224, 213, 213);
-} */
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #f1f1f1;
+font-size: larger;
+position: fixed;
+top:0;
+width:100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: block;
+color: #666;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+text-align: center;
+}
+
+ul.topnav li a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+ul.topnav li a.active {    
+background-color: hsl(204, 68%, 62%);
+color: white;}
+
+ul.topnav li.right {float:right}
+
+@media screen and (max-width: 600px) {
+  [class="topnav"]{
+      margin-bottom: 0;
+  }
+
+ul.topnav li {float: none;}
+}
