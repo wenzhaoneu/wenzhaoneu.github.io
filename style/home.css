@@ -278,11 +278,13 @@ ul.topnav li {float: none;}
     width: 100%;
     top: 100%;
     transform: translate(-50%, -100%);
-    font-size: 15px;
+    font-size: 10px;
+    padding:0;
   }
 
   .topnav-header {
     font-size: 15px;
+    padding:0;
   }
 
 }
