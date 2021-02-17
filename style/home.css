@@ -260,7 +260,9 @@ ul.topnav li {float: none;}
   .topnav a {
     float: none;
     display: block;
- 
+    /* flex-direction: row; */
+    position: fixed;
+    bottom:0;
   }
 
 }
