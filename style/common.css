@@ -199,7 +199,7 @@ body,html {
   
   .topnav{
   width:100%;
-  height:auto;
+  height:fit-content;
   background-color: #f1f1f1;
   /* overflow: hidden; */
   display: flex;
@@ -211,17 +211,21 @@ body,html {
   transform: translate(-50%, 0);
   z-index: 10;
   text-decoration: none;
+  margin: 0;
   /* justify-content: left; */
   
   }
   
   .topnav a {
+  height:100%;
+  width:fit-content;
   float: left;
   padding: 0;
   color: #666;
   text-decoration: none;
   font-size: 18px;
   margin: auto;
+  padding: 30px 25px;
   
   }
   
@@ -230,7 +234,7 @@ body,html {
   font-size: 20px;
   color: #666;
   text-decoration: none;
-  padding: 18px;
+  padding: 0;
   }
   
   
