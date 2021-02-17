@@ -305,7 +305,7 @@ ul.topnav li {float: none;}
     width: auto;
     padding: 0;
     grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr 2fr 1fr;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 8fr;
     grid-template-areas: 
     "header header"
     "image5 content5"
