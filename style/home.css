@@ -220,7 +220,7 @@ width:100%;
 
 }
 
-.topnav header{
+.topnav-header{
   float: left;
   font-size: 20px;
   color: #666;
@@ -268,8 +268,8 @@ ul.topnav li {float: none;}
 @media screen and (max-width:600px){
   .topnav a {
     float: none;
-    display: block;
-    /* flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     position: fixed;
     bottom:0;
   }
