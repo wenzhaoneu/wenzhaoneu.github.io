@@ -9,8 +9,6 @@ body,html {
 
 .bg-image {
   height: 70%; 
-  
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
