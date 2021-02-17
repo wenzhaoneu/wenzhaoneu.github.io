@@ -220,6 +220,14 @@ width:100%;
 
 }
 
+.topnav header{
+  float: left;
+  font-size: 20px;
+  color: #666;
+  text-decoration: none;
+  padding: 12px;
+}
+
 /* ul.topnav li {float: left;}
 
 ul.topnav li a {
@@ -245,6 +253,7 @@ color: white;} */
 background-color: hsl(204, 68%, 62%);
 color: white;
 }
+
 
 /* ul.topnav li.right {float:right} */
 
