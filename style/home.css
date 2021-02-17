@@ -289,4 +289,14 @@ ul.topnav li {float: none;}
     float:left;
   }
 
+  .image5{
+    width:50%;
+    height: 50%;
+
+  }
+
+  .main-content_5 {
+    font-size:small;
+  }
+
 }
