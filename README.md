@@ -2,11 +2,11 @@
 
 ## Write up for A1:
 
-####--What was the most challenging piece of this assignment?  Did you find it easy or challenging to work with HTML and CSS?  How long did this overall assignment take you?
+##What was the most challenging piece of this assignment?  Did you find it easy or challenging to work with HTML and CSS?  How long did this overall assignment take you?
 
 The most challenging is to make my website mobile-friendly. I need to update GitHub frequently and see if it has any effect after I change the features. The most difficult part is to adjust navbar to make it meet the requirements. It is not easy to do that. It took me 2 days to try what is the best view for the user.
 
-####--What decisions did you make when you made your site mobile-friendly?
+###What decisions did you make when you made your site mobile-friendly?
 
 I hope to let my navbar sit at the bottom so that it will not block the contents and make room for my other contents. I also change the arrangement of the content to make it more easy and simple to read. I also change the meta setting so that it could match the screen size and not overflow the screen.
 
