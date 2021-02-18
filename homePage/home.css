@@ -8,7 +8,7 @@ grid-template-rows: 1.5fr 2fr 2fr 2fr 1fr;
 grid-template-columns: 1fr 4fr 1fr 4fr;
 grid-template-areas: 
 "header header header header"
-"image5 content5 content5 content5"
+"image5 image5 content5 content5"
 "image1 content1 image2 content2"
 "image3 content3 image4 content4"
 "footer-l footer-l footer-l footer-l "
