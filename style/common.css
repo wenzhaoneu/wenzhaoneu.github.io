@@ -218,6 +218,7 @@ body,html {
 .active {    
     background-color: hsl(204, 68%, 62%);
     color: white;
+    font-weight: bold;
 }
 
 @media screen and (max-width:600px){
@@ -232,7 +233,7 @@ body,html {
 
     .topnav a {
         font-size: 12px;
-        padding: 9px 6px;
+        padding: 18px 6px;
         margin: 0;
     }
 
