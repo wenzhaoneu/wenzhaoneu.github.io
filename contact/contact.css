@@ -6,206 +6,25 @@
     grid-template-rows: 1.5fr 1fr 1fr 1.5fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     grid-template-areas: 
-      "header header header header header"
-      "left-sidebar image2 content2 image4 content4"
-      "left-sidebar image3 content3 image5 content1"
-      "footer footer footer-l footer-r footer-r"
+    "header header header header header"
+    "left-sidebar image2 content2 image4 content4"
+    "left-sidebar image3 content3 image5 content1"
+    "footer footer footer-l footer-r footer-r"
     ;
   }
-
-  @media screen and (max-width:600px){
-    
-      /* .main-header{
-          width: 100%;
-      }
-      
-      body,html {
-        padding: 0;
-        margin:0;
-      } */
-  
-      .container-contact {
-          display: grid;
-          height: 100%;
-          width: auto;
-          padding: 0;
-          grid-template-rows: 1fr 1fr 1fr 1fr;
-          grid-template-columns: 2fr 6fr;
-          grid-template-areas: 
-            "header header"
-            "image2 content2" 
-            "image4 content4"
-            "image3 content3" 
-          ;
-        }
-    
-    }
-
-    
-    .main-header {
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: powderblue;
-    width: auto;
-    
-    }
-  
-    .image2 {
-    grid-area: image2;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: row;
-    }
-    .image3 {
-    grid-area: image3;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: row;
-    }
-    .image4 {
-    grid-area: image4;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: row;
-    }
-
-    
-    .img-size {
-    width:60px;
-    height: 60px;
-    }
-    
-
-    
-    .main-content_2 {
-    grid-area: content2;
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    flex-direction: row;
-    font-size:large;
-    }
-    
-    .main-content_3 {
-    grid-area: content3;
-    display: flex;
-    justify-content:left;
-    align-items:center;
-    flex-direction: row;
-    font-size:large;
-    }
-    
-    .main-content_4 {
-    grid-area: content4;
-    display: flex;
-    justify-content:left;
-    align-items:center;
-    flex-direction: row;
-    font-size:large;
-    }
-    
-
-    .border_up {
-    border-top: 1px solid lightgrey;
-    }
-    
-    .border_up_footer {
-    border-top: 2px solid powderblue;
-    }
-    
-    .center {
-    position: absolute;
-    top: 0;
-    left: 0; 
-    bottom:0;
-    right:0;
-    margin:auto;
-    }
-    
-    
-    .main-left-sidebar {
-    grid-area: left-sidebar;
-    font-size: larger;
-    }
-    
-    .main-right-sidebar {
-    grid-area: right-sidebar;
-    font-size: larger;
-    }
-    
-    
-    .main-footer-left {
-    grid-area: footer-l;
-    font-size: larger;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    flex-direction: row;
-    justify-content:left;
-    }
-    
-    .main-footer-right {
-    grid-area: footer-r;
-    font-size: larger;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    flex-direction: row;
-    justify-content:left;
-    
-    }
-    
-    .size {
-    height: 50px;
-    width: 50;
-    }
-    
-    .size_small {
-    font-size: small;
-    }
- 
-    
-    @media screen and (max-width:600px){
-
-    .main-content_2 {
-      font-size:15px;
-    }
-    
-    .main-content_3 {
-      font-size:15px;
-    }
-    .main-content_4 {
-      font-size:15px;
-    }
-
-      .main-header{
-          width: 100%;
-      }
-      
-      body,html {
-        padding: 0;
-        margin:0;
-      }
-  
-      .container-contact {
-          display: grid;
-          height: 100%;
-          width: auto;
-          padding: 0;
-          grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr;
-          grid-template-columns: 2fr 6fr;
-          grid-template-areas: 
-            "header header"
-            "image2 content2" 
-            "image4 content4"
-            "image3 content3" 
-          ;
-        }
-    
-    }
+  @media screen and (max-width:600px){ 
+    .container-contact {
+      display: grid;
+      height: fit-content;
+      width: auto;
+      padding: 0;
+      grid-template-rows: 2fr 4fr 4fr 4fr;
+      grid-template-columns: 2fr 6fr;
+      grid-template-areas: 
+          "header header"
+          "image2 content2" 
+          "image4 content4"
+          "image3 content3"
+  ;
+  }
+  }

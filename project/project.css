@@ -14,3 +14,23 @@
       "left-sidebar image5 footer-l footer-r right-sidebar"
     ;
   }
+
+
+@media screen and (max-width:600px){
+  .container-p {
+    display: grid;
+    height: 100%;
+    width: auto;
+    padding: 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 2fr 4fr 4fr;
+    grid-template-areas: 
+        "header header header "
+        "image1 content1 content1"
+        "image2 content2 content2"
+        "image3 content3 content3"
+        "image4 content4 content4"
+    ;
+}
+  
+}
